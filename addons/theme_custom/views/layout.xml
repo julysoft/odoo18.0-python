@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <template id="assets_frontend" inherit_id="website.assets_frontend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/theme_custom/static/scss/theme.scss"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>
